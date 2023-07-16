@@ -1,4 +1,4 @@
-
+import { PropTypes } from 'prop-types'
 
 const Square = (props) => {
 
@@ -7,6 +7,11 @@ const Square = (props) => {
         {props.value}
     </button>
   )
+}
+
+Square.propTypes = {
+  value: PropTypes.string,
+  onClickEvent: PropTypes.func.isRequired
 }
 
 export default Square
