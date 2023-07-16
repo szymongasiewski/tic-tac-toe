@@ -1,0 +1,59 @@
+body {
+  background-color: #333;
+  color: white;
+  margin: 20px;
+  font: 32px "Century Gothic", Futura, sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.board {
+  border: 5px solid #999;
+  border-radius: 10px;
+}
+
+.board-row {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.square {
+  background-color: #444;
+  color: white;
+  border: 1px solid #999;
+  padding: 0;
+  font-size: 84px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+
+.square:hover {
+  outline: none;
+  background-color: #222;
+}
+
+.status {
+  margin: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.btn {
+  background-color: #444;
+  color: white;
+  text-align: center;
+  border: none;
+  padding: 20px;
+  margin: 10px;
+  font-size: 24px;
+  border-radius: 12px;
+}
+
+.btn:hover {
+  background-color: #222;
+}
